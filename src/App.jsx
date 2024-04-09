@@ -1,16 +1,14 @@
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
-import Alert from "./components/Alert";
-import TodoBox from "./components/TodoBox";
+import Foot from "./components/Foot";
 
 function App() {
 
   return (
     <>
     <Navbar/>
-    <Body/>   
-    <Alert/> 
-    <TodoBox/>
+    <Body/> 
+    <Foot/>
     </>
   );
 }

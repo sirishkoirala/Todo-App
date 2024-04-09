@@ -1,11 +1,15 @@
 import React from "react";
+import TodoBox from "./TodoBox";
+import Btn from "./Btn";
 
 const Body = () => {
   return (
     <>
-      <div className="container mx-auto bg-slate-800 text-blue-100">
-        <h1>This is my ToDo App.</h1>
-        <h3>Developer- Sirish Koirala</h3>
+      <div className="h-[88vh] w-auto bg-[#000020] text-white flex justify-center items-center">
+        <div>
+        <TodoBox />
+        <Btn/>
+        </div>
       </div>
     </>
   );

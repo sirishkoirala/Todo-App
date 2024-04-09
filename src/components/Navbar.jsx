@@ -2,9 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="container flex justify-center mx-auto items-center h-20 bg-blue-500">
-      <p className="text-blue-100">Navbar</p>
-    </div>
+    <nav className="h-[6vh] w-auto bg-[#454555] flex justify-center items-center">
+      <p className="text-white">You have 2 Task remaing Todo.</p>
+    </nav>
   );
 };
 
