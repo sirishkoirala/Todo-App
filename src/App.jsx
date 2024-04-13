@@ -1,16 +1,7 @@
-import Navbar from "./components/Navbar";
-import Body from "./components/Body";
-import Foot from "./components/Foot";
+import Todo from "./components/Todo";
 
 function App() {
-
-  return (
-    <>
-    <Navbar/> 
-    <Body/> 
-    <Foot/>
-    </>
-  );
+   return <Todo />;
 }
 
 export default App;
