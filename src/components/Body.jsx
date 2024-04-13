@@ -5,7 +5,7 @@ import Btn from "./Btn";
 const Body = () => {
   return (
     <>
-      <div className="h-[88vh] w-auto bg-[#000020] text-white flex justify-center items-center">
+      <div className="h-[88vh] w-auto bg-[#A4A7DE] text-white flex justify-center items-center">
         <div>
         <TodoBox />
         <Btn/>
